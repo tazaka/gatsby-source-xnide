@@ -1,0 +1,16 @@
+{
+    "name": "gatsby-source-xnide",
+    "version": "1.0.0",
+    "description": "gatsby Xnide source plugin",
+    "main": "gatsby-node.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.18.0",
+        "query-string": "^6.1.0"
+    }
+}
