@@ -1,6 +1,6 @@
 # gatsby-source-xnide
 
-``javascript
+```javascript
 plugins: [
     {
         resolve: "gatsby-source-xnide",
