@@ -12,5 +12,9 @@
     "dependencies": {
         "axios": "^0.18.0",
         "query-string": "^6.1.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/tazaka/gatsby-source-xnide"
     }
 }

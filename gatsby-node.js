@@ -2,7 +2,7 @@ const axios = require("axios")
 const crypto = require('crypto')
 const slugify = require('slugify')
 const moment = require('moment')
-// xnide
+// xnide 1
 function isArray(a) {
     return (!!a) && (a.constructor === Array);
 };
