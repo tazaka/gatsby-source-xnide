@@ -115,7 +115,7 @@ exports.sourceNodes = async ({ actions, createNodeId }, configOptions) => {
             const filter = a.elements.filter(x => x.name === item.slug_column_name);
             if (filter.length > 0) {
                 item.name = filter[0].value_string;
-                item.slug = slugify(item.name, { lower: true });
+                item.slug = slugify(item.name.replace(' s.r.o.', '').replace('.', '-'), { lower: true });
             }
 
             const filterCollection = collectionList.data.filter(x => x.id === item.collection_id);
